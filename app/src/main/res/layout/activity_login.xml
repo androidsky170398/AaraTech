@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Fragment.Seekers"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="LOGIN"
+      android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="@font/open_sans_bold"
+
+        android:textColor="@color/purple_500">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        >
+        <!-- TODO: Update blank fragment layout -->
+
+        <RadioGroup
+            android:id="@+id/radiogen1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textgroup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end">
+
+
+            <RadioButton
+                android:textColor="@color/purple_500"
+                android:id="@+id/radio_full1"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="SEEKER" />
+
+            <RadioButton
+                android:textColor="@color/purple_500"
+                android:id="@+id/radio_essence1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="RECURITER" />
+
+        </RadioGroup>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/hello_blank_fragment" >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:singleLine="true"
+                android:background="@color/white"
+
+                android:drawableTint="@color/black"
+                android:hint="Your Email"
+                android:inputType="textEmailAddress">
+
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/hello_blank_fragment" >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:singleLine="true"
+                android:background="@color/white"
+
+                android:drawableTint="@color/black"
+                android:hint="Paaword"
+                android:inputType="textPassword">
+
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+
+        android:background="@drawable/round_corner_dark_blue"
+        android:text="SIGN UP"
+
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+
+        android:text="DON'T HAVE AN ACCOUNT ? Register Here"
+
+        />
+</LinearLayout>

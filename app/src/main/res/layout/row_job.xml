@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="#E5E5E5"
+
+    android:elevation="8dp"
+    android:padding="10dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="12dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/white"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="7dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="239dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/open_sans_semibold"
+                    android:text="UI dESIGNER"
+                    android:textSize="17sp">
+
+
+                </TextView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="37dp"
+                    android:layout_gravity="end"
+                    android:elevation="15dp"
+                    app:cardBackgroundColor="@color/purple_500"
+                    app:cardElevation="10sp"
+                    app:cardCornerRadius="15dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="12dp"
+                        android:text="View"
+
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="239dp"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+
+                android:fontFamily="@font/open_sans_semibold"
+                android:text="UI dESIGNER"
+                android:textSize="14sp">
+
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="#E5E5E5"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp">
+
+                    <TextView
+                        android:id="@+id/textcat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="7dp"
+
+                        android:fontFamily="@font/open_sans_light"
+                        android:text="pragya sharma"
+
+                        android:textColor="@color/black"
+
+                        android:textSize="15dp">
+
+                    </TextView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginLeft="10dp"
+
+                    app:cardBackgroundColor="#E5E5E5"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="16dp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="7dp"
+
+                        android:fontFamily="@font/open_sans_light"
+                        android:text="pragya sharma"
+
+                        android:textColor="@color/black"
+
+                        android:textSize="15dp">
+
+                    </TextView>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/open_sans_light"
+                android:text="pragya sharma"
+
+                android:textColor="@color/black"
+
+                android:textSize="12sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

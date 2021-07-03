@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/job"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/postjob"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/profilesetting"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_ps" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_ps" />
+    </group>
+</menu>
